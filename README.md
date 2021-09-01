@@ -10,3 +10,10 @@ We added 2 rules so http and https will be accessible from everywhere(e.g a brow
 and we reload so it will save the configurations
      firewall-cmd --reload
  
+we inserted the command yum -y install httpd in case there wasnt in our machine
+
+and we enabled the httpd with the command
+    sudo systemtc1 start httpd 
+  
+ 
+ 
